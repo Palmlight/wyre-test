@@ -1,0 +1,11 @@
+@import "fonts.scss";
+@import "grid.scss";
+
+.global-container {
+  width: 90%;
+  margin: 0 auto;
+
+  @media (min-width: 1024px) {
+    width: 1200px;
+  }
+}

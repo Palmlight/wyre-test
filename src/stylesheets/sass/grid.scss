@@ -1,0 +1,12 @@
+.page-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 310px 1fr;
+}
+
+.transaction-listing-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 100px 150px;
+  align-items: center;
+}
